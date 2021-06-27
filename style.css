@@ -1,0 +1,72 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, "Roboto",sans-serif;
+}
+
+/* first page */
+
+.first{
+    width: 1440px;
+    height: 3600px;
+    background: #1F1F1F;
+}
+
+.first nav{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: -878px;
+    /* margin-left: 1000px; */
+    margin-right: 90px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.first header{
+    font-family: sans-serif;
+    /* margin-left: 57px; */
+    margin-top: 82px;
+    font-weight: bold;
+    font-size: 612px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+}
+
+.first p{
+    font-size: 42px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: sans-serif;
+    /* margin-left: 632px; */
+    text-align: center;
+    font-weight: bold;
+}
+
+.pic1{
+    width: 1440px;
+    height: 958px;
+    margin-top: -50px;
+}
+
+/* second page */
+
+.second header{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #ffffff;
+    background-color: #1F1F1F;
+    text-align: center;
+    position: relative;
+}
+
+/* last page */
+
+.lpic{
+    position: absolute;
+    width: 1454.55px;
+    height: 900px;
+}
