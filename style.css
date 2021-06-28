@@ -10,8 +10,8 @@ body {
 /* first page */
 
 .first{
-    width: 1440px;
-    height: 3600px;
+    width: 100%;
+    height: 100%;
     background: #1F1F1F;
 }
 
@@ -46,27 +46,88 @@ body {
 }
 
 .pic1{
-    width: 1440px;
-    height: 958px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     margin-top: -50px;
 }
 
 /* second page */
 
-.second header{
+.second{
+    width: 100%;
+    height: 100%;
+    background: #1F1F1F;
+}
+
+.second header p{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 48px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.75);
     background-color: #1F1F1F;
     text-align: center;
     position: relative;
+    margin-bottom: 50px;
 }
 
+.spic{
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    margin-left: 3%;
+    /* margin-top: 70px; */
+    filter: blur(3px);
+}
+
+nav ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftarrow{
+    margin-top: 200px;
+}
+
+.rightarrow{
+    margin-top: 200px;
+}
+
+/* third page */
+
+
+.third{
+    width: 100%;
+    height: 100%;
+    background: #1F1F1F;
+}
+
+.third p{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 50px;
+}
+
+.thirdpic{
+    width: 80%;
+    height: 40%;
+    filter: blur(3px);
+    align-items: center;
+    margin-left: 140px;
+}
 /* last page */
 
 .lpic{
     position: absolute;
-    width: 1454.55px;
-    height: 900px;
+    width: 100%;
+    height: 100%;
 }
+
