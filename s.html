@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="853882610449-o89v6hkda5v3poagpl7565401jlt2nqs.apps.googleusercontent.com">
+    <script src="http://apis.google.com/js/platform.js" async defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- demo project -->
+
+    <div class="g-signin2"></div>
+
+    <!-- first page -->
+
+    <div class ="first">
+        <!-- <img class="pic1" src="../images/sacha-t-sas-Z5PIzFT_ZZU-unsplash.jpg" alt=""> -->
+        <img class="pic1" src="../static/images/sacha-t-sas-Z5PIzFT_ZZU-unsplash.jpg " alt="">
+            <nav>
+                WANT TO WRITE A STORY?
+            </nav>
+            <!-- <button>
+                WANT TO WRITE A STORY?
+            </button> -->
+            <header>
+                ONE
+            </header>
+            <p>
+                SLIDE DOWN
+            </p>
+    </div>
+
+    <!-- second page -->
+
+    <div class="second">
+        <div class="wrapper2">
+            <header>
+                <p>STORIES BY ADVENTURERS</p>
+            </header>
+            <!-- <div class = "formcontainer">
+                <form action = "/savedetails" method="post">  
+                    <table>  
+                        <tr><td>name</td><td><input type="text" name="name"></td>
+                        </tr>
+                        <tr><td>titletext</td><td><input type="text" name="titletext"></td>
+                        </tr>
+                        <tr><td>contenttext</td><td><input type="text" name="contenttext"></td>
+                        </tr>  
+                        <tr><td><input type="submit" value="Submit"></td></tr>  
+                    </table> 
+                </form>
+            </div> -->
+            <div class="container">
+                <div class="textlist">
+                    
+                    <ul>
+                        <li class="title">
+                            {{ name }}
+                        </li>
+                        <li class="topic">
+                            {{ titletext }}
+                        </li>
+                        <li class="parah">
+                            {{ contenttext }}
+                        </li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                        <img class="leftarrow" src="../static/images/left-small.png" alt="">
+                        </li>
+                        <li>
+                            <img class="spic" src="../static/images/l.jpg" alt="">
+                        </li>
+                        <li>
+                        <img class="rightarrow" src="../static/images/right-small.png" alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            
+            <!-- <div>
+                <img class="leftarrow" src="images/left-small.png" alt="">
+            </div>
+            <div>
+                <img class="rightarrow" src="images/right-small.png" alt="">
+            </div> -->
+        </div>
+    </div>
+            
+    <!-- third page -->
+<!--     
+    <div class="third">
+        <p>
+            WANT TO SHARE YOUR STORIES?
+        </p>
+        <div>
+            <img class="thirdpic" src="images/black_and_white_mountains_2560x1600.jpg" alt="">
+        </div>
+    </div>
+     -->
+
+    <!-- last page -->
+
+    <div class ="last">
+        <div class = "formcontainer">
+            <form action = "/savedetails" method="post">  
+                <table>  
+                    <tr><td>name</td><td><input type="text" name="name"></td>
+                    </tr>
+                    <tr><td>titletext</td><td><input type="text" name="titletext"></td>
+                    </tr>
+                    <tr><td>contenttext</td><td><input type="text" name="contenttext"></td>
+                    </tr>  
+                    <tr><td><input type="submit" value="Submit"></td></tr>  
+                </table> 
+            </form>
+        </div>
+        <img class="lpic" src="../static/images/l.jpg" alt="">
+        <!-- <div class="about">
+            <p>
+                ABOUT US
+            </p>
+            <p>
+                Email Us On: demonone@gmail.com
+            </p>
+        </div> -->
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
